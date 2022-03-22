@@ -119,7 +119,8 @@ const FeaturesSplit = ({
                   src={require("./../../assets/images/Blok.jpeg")}
                   alt="Features split 02"
                   width={528}
-                  height={396}
+                  height={400}
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
                 />
               </div>
             </div>
@@ -151,7 +152,8 @@ const FeaturesSplit = ({
                   src={require("./../../assets/images/AdCast.jpeg")}
                   alt="Features split 03"
                   width={528}
-                  height={396}
+                  height={400}
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
                 />
               </div>
             </div>

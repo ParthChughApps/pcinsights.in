@@ -70,10 +70,9 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">WHSmith</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  We helped WHSmith to lift and shift of their existing website
+                  to a better PWA App using Mobify's PWA kit and Salesforce's
+                  Commerce API to improve its overall performance and sales.
                 </p>
               </div>
               <div
@@ -98,14 +97,13 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Health care Apps
+                  Multi-Purpose Apps
                 </div>
                 <h3 className="mt-0 mb-12">BlokPass and BlokVerify</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  We helped Blok to create applications for contact less
+                  personal information sharing and attestation using Anonymous
+                  handshake whi.
                 </p>
               </div>
               <div
@@ -135,10 +133,9 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">AdCast</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  AdCast is a platform, which help the influncers to earn by
+                  sharing Ads on social media. We helped AdCast to create a
+                  platform to create Ads and publish the Ads.
                 </p>
               </div>
               <div

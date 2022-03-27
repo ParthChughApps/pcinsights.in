@@ -58,20 +58,19 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — I had a chance to work along side Parth during our
+                    engineering years. I felt motivated and astounded by his
+                    zeal to complete each project with such competence. He is
+                    one of the best team player who is enthusiastic, talented
+                    passionate and sure about his goals in life..
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Roman Level
+                    Aekansh Gupta
                   </span>
                   <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
+                  <span className="testimonial-item-link">Data Scientist</span>
                 </div>
               </div>
             </div>
@@ -80,19 +79,21 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Parth is highly dedicated to every project he undertakes.
+                    He is a quick learner and a hardworking person. We have
+                    worked together in a lot of projects including our B.tech
+                    research as well as our company project training. He has
+                    developed a good amount of expertise in full stack
+                    development..
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Diana Rynzhuk
+                    Mihir Kavishwar
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    Senior Associate Software Engineer at MathWorks
                   </span>
                 </div>
               </div>
@@ -105,19 +106,22 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — Parth is an amazing professional, very hardworking and
+                    extremely talented who brings all of the skills and
+                    expertise in programming and systems security. He is a very
+                    productive person and is multi-skilled with vast knowledge.
+                    He is also careful, proactive, self motivated and
+                    intelligent team player. I highly recommend him and am
+                    certain he would be a valuable asset for any company.
                   </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Ben Stafford
+                    Nisha Vachhani
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    Compliance | Operations
                   </span>
                 </div>
               </div>

@@ -48,6 +48,13 @@ const FeaturesTiles = ({
       "Technology is constantly evolving, and staying updated with the latest tech can be challenging. PCI uses the latest tools and technologies to ensure you don’t miss out on any opportunities.",
   };
 
+  const getAge = (dateOfBirth, dateToCalculate = new Date()) => {
+    const dob = new Date(dateOfBirth).getTime();
+    const dateToCompare = new Date(dateToCalculate).getTime();
+    const age = (dateToCompare - dob) / (365 * 24 * 60 * 60 * 1000);
+    return Math.floor(age);
+};
+
   return (
     <section {...props} className={outerClasses}>
       <div className="container">
@@ -67,7 +74,7 @@ const FeaturesTiles = ({
                   </div>
                 </div> */}
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">5+</h4>
+                  <h4 className="mt-0 mb-8">{getAge("01/01/2017")}+</h4>
                   <p className="m-0 text-sm">years of industry experience</p>
                 </div>
               </div>
@@ -89,7 +96,7 @@ const FeaturesTiles = ({
                   </div>
                 </div> */}
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">15+</h4>
+                  <h4 className="mt-0 mb-8">{getAge("01/01/2017") * 4}+</h4>
                   <p className="m-0 text-sm">projects successfully delivered</p>
                 </div>
               </div>
@@ -109,7 +116,7 @@ const FeaturesTiles = ({
                   </div>
                 </div> */}
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">7+</h4>
+                  <h4 className="mt-0 mb-8">8+</h4>
                   <p className="m-0 text-sm">industries served</p>
                 </div>
               </div>
@@ -180,6 +187,7 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div> */}
+            
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +66,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -88,16 +88,6 @@ const Header = ({
           <Logo />
           {!hideNav &&
             <>
-              <button
-                ref={hamburger}
-                className="header-nav-toggle"
-                onClick={isActive ? closeMenu : openMenu}
-              >
-                <span className="screen-reader">Menu</span>
-                <span className="hamburger">
-                  <span className="hamburger-inner"></span>
-                </span>
-              </button>
               <nav
                 ref={nav}
                 className={
@@ -115,14 +105,14 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
                     </li>
                   </ul> */}
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>}
+
+                  <ul
+                    className="list-reset header-nav-right"
+                  >
+                    <li>
+                      <Link to="https://calendly.com/parthchugh/30min?back=1" target="_blank" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>LET'S TALK</Link>
+                    </li>
+                  </ul>
                 </div>
               </nav>
             </>}

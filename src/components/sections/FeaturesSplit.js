@@ -103,7 +103,7 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   We helped Blok to create applications for contact less
                   personal information sharing and attestation using Anonymous
-                  handshake whi.
+                  handshake.
                 </p>
               </div>
               <div
@@ -129,7 +129,40 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Marketing App
+                  Insurance App
+                </div>
+                <h3 className="mt-0 mb-12">Vertical Fox</h3>
+                <p className="m-0">
+                  Developed a platform for insurance brokers that
+                  allows them to gather information from different 
+                  vendors and make informed decisions based on their 
+                  clients' needs. The platform includes features such 
+                  as vendor comparison, policy analysis, and real-time quotes.                  
+                </p>
+              </div>
+              <div
+                className={classNames(
+                  "split-item-image center-content-mobile reveal-from-bottom",
+                  imageFill && "split-item-image-fill"
+                )}
+                data-reveal-container=".split-item"
+              >
+                <Image
+                  src={require("./../../assets/images/verticalfox.png")}
+                  alt="Features split 03"
+                  width={528}
+                  height={400}
+                  style={{ objectFit: "contain", maxHeight: "400px" }}
+                />
+              </div>
+            </div>
+            <div className="split-item">
+              <div
+                className="split-item-content center-content-mobile reveal-from-right"
+                data-reveal-container=".split-item"
+              >
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Marketting App
                 </div>
                 <h3 className="mt-0 mb-12">AdCast</h3>
                 <p className="m-0">

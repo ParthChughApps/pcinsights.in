@@ -60,14 +60,14 @@ const Hero = ({
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
-              PCI <span className="text-color-primary"></span>
+              Parth Chugh
             </h1>
             <div className="container-xs">
               <p
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Get Your Dream website or App
+                Full Stack Developer based In India
               </p>
               {/* <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -88,7 +88,7 @@ const Hero = ({
           >
             <Image
               className="has-shadow"
-              src={require("./../../assets/images/Hero.png")}
+              src={require("./../../assets/images/image.png")}
               alt="Hero"
             />
           </div>

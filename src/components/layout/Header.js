@@ -110,7 +110,14 @@ const Header = ({
                     className="list-reset header-nav-right"
                   >
                     <li>
-                      <Link to="https://calendly.com/parthchugh/30min?back=1" target="_blank" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>LET'S TALK</Link>
+                      <a
+                        rel='noopener noreferrer'
+                        href="https://calendly.com/parthchugh/30min?back=1"
+                        target="_blank" className="button button-primary button-wide-mobile button-sm"
+                      >
+                        LET'S TALK
+                      </a>
+                      {/* <Link to="https://calendly.com/parthchugh/30min?back=1" target="_blank" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>LET'S TALK</Link> */}
                     </li>
                   </ul>
                 </div>
